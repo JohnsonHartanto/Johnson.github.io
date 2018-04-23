@@ -1,0 +1,112 @@
+div.bgtext
+{
+	position:relative;
+	margin-top:100px;
+	margin-left:0;
+	width:100%;
+	background-image:url('test.jpg');
+	color:white;
+}
+div.gaming
+{
+	position:absolute;
+	margin-left:10px;
+	width:50%;
+}
+div.pubg
+{
+	position:absolute;
+	margin-left:55%;
+	margin-top:10px;
+	width:50%;
+}
+div.utama
+{
+	position:absolute;
+	top:350px;
+	width:100%;
+	
+}
+div.sub
+{	
+	float:left;
+	width:150px;
+	height:200px;
+	margin:10px 120px 10px 150px;
+}
+.sub:hover .image
+{
+	opacity:0.3;
+}
+.sub:hover .middle
+{
+	opacity:1;
+}
+.middle 
+{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image 
+{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+body
+{
+	font-family:Arial;
+	font-size:1em;
+	background-size:150%;
+}
+img 
+{
+    border-radius: 8px;
+}
+.navbar {
+  background-color: #1e1e1e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+.text 
+{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1em;
+  padding: 16px 32px;
+}
+ul
+{
+	display:none;
+}
